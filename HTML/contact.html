@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>contact us</h3>
+    <form action="mailto: demraldo12@gmail.com">
+      <!-- "for" attributes is used to assciate the label with the input field -->
+      <br />
+      <label for="fullname">Name:</label>
+      <input
+        type="text"
+        required
+        placeholder="Mary Mariam"
+        name="fullname"
+        id="fullname"
+      />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        required
+        placeholder="Marymaria@gmail.com"
+        name="email"
+        id="email"
+      />
+      <br />
+      <label for="message">message</label>
+      <!-- textarea is used to create a multi-line text input field -->
+      <br />
+      <textarea
+        name="message"
+        placeholder="enter message here"
+        id="message"
+        rows="10"
+        col="60"
+      ></textarea>
+      <br />
+      <input type="button" value="click me" />
+      <br />
+      <input type="number" placeholder="number" min="1" max="30" width="300" />
+      <br />
+      <br /><label for="password">Password:</label>
+      <input
+        type="password"
+        required
+        placeholder="Input password"
+        minlength="6"
+      />
+      <br />
+      <br /><input type="datetime-local" />
+      <input type="date" />
+      <br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" />
+      <label for="femle">Female</label>
+      <input type="radio" name="gender" value="female" /><br />
+      <br />
+      <input type="checkbox" /> i agree to the terms and conditions
+      <br />
+      <br />
+      <input type="color" />
+      <br />
+      <input type="file" />
+      <br />
+      <input type="range" />
+      <br />
+      <input type="url" />
+      <br />
+      <select name="country" id="country">
+        <option disabled selected>Select Country</option>
+        <option value="America">America 🇺🇸</option>
+        <option value="england">England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
+        <option value="nigeria">Nigeria 🇳🇬</option>
+      </select>
+      <button type="submit" disabled>submit</button>
+      <button type="reset">reset</button>
+      <br />
+      
+    </form>
+  </body>
+</html>
